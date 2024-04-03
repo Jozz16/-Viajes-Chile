@@ -10,32 +10,12 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <style>
-        .section-container {
-            max-width: 1200px;
-            /* Establece un ancho máximo para las secciones */
-            margin: 0 auto;
-            /* Centra horizontalmente las secciones */
-            padding: 0 15px;
-            /* Agrega un espacio alrededor de las secciones */
-        }
-
-        section {
-            padding: 20px;
-            /* Ajusta el espacio interior de las secciones según sea necesario */
-            background-color: #f8f9fa;
-            /* Cambia el color de fondo de las secciones si es necesario */
-            margin-bottom: 20px;
-            /* Agrega un espacio entre las secciones */
-        }
-    </style>
 </head>
 
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="navbar ">
+        <nav class="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/viajes.svg" alt="Logo" width="100" height="40"
@@ -44,20 +24,23 @@
                 </a>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                        <a id="inicio" class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Quienes Somos</a>
+                        <a id="quienesSomos" class="nav-link text-light" href="#">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Destacados</a>
+                        <a id="destacados" class="nav-link text-light" href="#">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled text-light" aria-disabled="true">Contacto</a>
+                        <a id="contacto" class="nav-link disabled text-light" aria-disabled="true">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
+
+
+
 
         <!-- Carousel -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
@@ -234,10 +217,13 @@
     </footer>
 
     <!-- scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
+    crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

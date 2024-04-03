@@ -16,4 +16,20 @@ body{
    i{
     color: #ffffff;
   }
-  
+  .section-container {
+    max-width: 1200px;
+    /* Establece un ancho máximo para las secciones */
+    margin: 0 auto;
+    /* Centra horizontalmente las secciones */
+    padding: 0 15px;
+    /* Agrega un espacio alrededor de las secciones */
+}
+
+section {
+    padding: 20px;
+    /* Ajusta el espacio interior de las secciones según sea necesario */
+    background-color: #f8f9fa;
+    /* Cambia el color de fondo de las secciones si es necesario */
+    margin-bottom: 20px;
+    /* Agrega un espacio entre las secciones */
+}
