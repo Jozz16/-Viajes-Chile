@@ -6,8 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viajes Chile</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .section-container {
+            max-width: 1200px; /* Establece un ancho máximo para las secciones */
+            margin: 0 auto; /* Centra horizontalmente las secciones */
+            padding: 0 15px; /* Agrega un espacio alrededor de las secciones */
+        }
+
+        section {
+            padding: 20px; /* Ajusta el espacio interior de las secciones según sea necesario */
+            background-color: #f8f9fa; /* Cambia el color de fondo de las secciones si es necesario */
+            margin-bottom: 20px; /* Agrega un espacio entre las secciones */
+        }
+    </style>
 </head>
 
 <body>
@@ -41,13 +57,13 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100 " height="900" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" height="900" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" height="900" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
@@ -62,15 +78,63 @@
             </button>
         </div>
     </header>
-    <section>
-<h1>Quienes Somos</h1>
-    </section>
-
+<!-- quienes somos  -->
+    <div class="section-container">
+        <section class="bg-black">
+            <h1 class="text-center text-white">¿Quiénes Somos?</h1>
+            <hr class="border-secondary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 h-100">
+                        <div class="text-center h-100">
+                            <div class="icon-container bg-info">
+                                <i class="fas fa-plane text-white "></i>
+                            </div>
+                            <p class="text-white pt-3 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse
+                                interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius gravida
+                                a ut augue. Nulla nec ante accumsan, tristique odio sed, egestas metus. Suspendisse risus
+                                felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
+                                sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 h-100">
+                        <div class="text-center h-100">
+                            <p class="text-white text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse
+                                interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius gravida
+                                a ut augue. Nulla nec ante accumsan, tristique odio sed, egestas metus. Suspendisse risus
+                                felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
+                                sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
+                            <div class="icon-container bg-info  ">
+                                <i class="fas fa-mountain text-white pt-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 h-100">
+                        <div class="text-center h-100">
+                            <div class="icon-container bg-info">
+                                <i class="fas fa-route text-white"></i>
+                            </div>
+                            <p class="text-white pt-3 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse
+                                interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius gravida
+                                a ut augue. Nulla nec ante accumsan, tristique odio sed, egestas metus. Suspendisse risus
+                                felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
+                                sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
 
     <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
