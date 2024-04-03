@@ -1,12 +1,13 @@
 body{
     background-color: black;
   }
-.navbar {
-    z-index: 1;
-    position: absolute;
+  .navbar {
+    z-index: 9999; /* Aumenta este número si es necesario */
+    position: fixed;
     width: 100%;
     background: rgba(248, 9, 9, 0); 
-  }
+}
+
   
   .carousel {
     position: relative;
