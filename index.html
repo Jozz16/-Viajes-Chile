@@ -15,8 +15,8 @@
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="navbar">
-            <div class="container-fluid">
+        <nav class="navbar" id="inicioNav">
+            <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/viajes.svg" alt="Logo" width="100" height="40"
                         class="d-inline-block align-text-top">
@@ -24,206 +24,204 @@
                 </a>
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a id="inicio" class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
+                        <a id="inicio" class="nav-link active text-light" aria-current="page" href="#inicioNav">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a id="quienesSomos" class="nav-link text-light" href="#">Quienes Somos</a>
+                        <a id="quienesSomos" class="nav-link text-light" href="#quieneSomos">Quienes Somos</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a id="destacadosNav" class="nav-link text-light" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a id="destacados" class="nav-link text-light" href="#">Destacados</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="contacto" class="nav-link disabled text-light" aria-disabled="true">Contacto</a>
+                        <a id="contactoNav" class="nav-link text-light" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-
-
-
-        <!-- Carousel -->
-        <div id="carouselExampleFade" class="carousel slide carousel-fade">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/img/carousel1.jpg" class="d-block w-100 " height="900" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" height="900" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" height="900" alt="...">
-                </div>
+    <!-- Carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" height="900" alt="...">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" height="900" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" height="900" alt="...">
+            </div>
         </div>
-    </header>
-    <!-- quienes somos  -->
-    <div class="section-container">
-        <section class="bg-black">
-            <h1 class="text-center text-white">¿Quiénes Somos?</h1>
-            <hr class="border-secondary">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 h-100">
-                        <div class="text-center h-100">
-                            <div class="icon-container bg-info">
-                                <i class="fas fa-plane text-white "></i>
-                            </div>
-                            <p class="text-white pt-3 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit.
-                                Suspendisse
-                                interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius
-                                gravida
-                                a ut augue. Nulla nec ante accumsan, tristique odio sed, egestas metus. Suspendisse
-                                risus
-                                felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
-                                sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 h-100">
-                        <div class="text-center h-100">
-                            <p class="text-white text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Suspendisse
-                                interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius
-                                gravida
-                                a ut augue. Nulla nec ante accumsan, tristique odio sed, egestas metus. Suspendisse
-                                risus
-                                felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
-                                sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
-                            <div class="icon-container bg-info  ">
-                                <i class="fas fa-mountain text-white pt-3"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 h-100">
-                        <div class="text-center h-100">
-                            <div class="icon-container bg-info">
-                                <i class="fas fa-route text-white"></i>
-                            </div>
-                            <p class="text-white pt-3 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit.
-                                Suspendisse
-                                interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius
-                                gravida
-                                a ut augue. Nulla nec ante accumsan, tristique odio sed, egestas metus. Suspendisse
-                                risus
-                                felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
-                                sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="height: 2rem;"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="height: 2rem;"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <!-- card -->
-    <div class="section-container">
-        <section class="row row-cols-5  pt-5 bg-black ">
-            <div class="col w-25">
-                <div class="card h-100">
-                    <img src="assets/img/card1.jpg" class="card-img-top img-fluid h-100" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col w-25">
-                <div class="card h-100">
-                    <img src="assets/img/card2.jpg" class="card-img-top img-fluid h-100" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col w-25">
-                <div class="card h-100">
-                    <img src="assets/img/card3.jpg" class="card-img-top img-fluid h-100" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col w-25">
-                <div class="card h-100">
-                    <img src="assets/img/card4.jpg" class="card-img-top img-fluid h-100" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
+    
+</header>
 
-    <!-- formulario -->
-    <div class="section-container ">
-        <section class="bg-black">
-            <h1 class="text-center text-white">CONTACTO</h1>
-            <hr class="border-secondary">
-            <div class="container">
-                <div class="row justify-content-center ">
-                    <div class="col-md-6 w-100">
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label text-white">Nombre</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputPassword1" class="form-label text-white">Asunto</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-info">Enviar</button>
-                        </form>
+<!-- quienes somos  -->
+<div class="section-container" id="quieneSomos">
+    <section class="bg-black" >
+        <h1 class="text-center text-white">¿Quiénes Somos?</h1>
+        <hr class="border-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 h-100">
+                    <div class="text-center h-100">
+                        <div class="icon-container bg-info">
+                            <i class="fas fa-plane text-white "></i>
+                        </div>
+                        <p class="text-white pt-3 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                            Suspendisse
+                            interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius
+                            gravida
+                            a ut augue. Nulla nec ante accumsan, tristique odio sed, egestas metus. Suspendisse
+                            risus
+                            felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
+                            sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 h-100">
+                    <div class="text-center h-100">
+                        <p class="text-white text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse
+                            interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius
+                            gravida
+                            a ut augue. Nulla nec ante accumsan, tristique odio sed, egestas metus. Suspendisse
+                            risus
+                            felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
+                            sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
+                        <div class="icon-container bg-info  ">
+                            <i class="fas fa-mountain text-white pt-3"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 h-100">
+                    <div class="text-center h-100">
+                        <div class="icon-container bg-info">
+                            <i class="fas fa-route text-white"></i>
+                        </div>
+                        <p class="text-white pt-3 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.
+                            Suspendisse
+                            interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius
+                            gravida
+                            a ut augue. Nulla nec ante accumsan, tristique odio sed, egestas metus. Suspendisse
+                            risus
+                            felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
+                            sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
-
-    <!-- footers -->
-    <footer class="bg-info d-flex justify-content-between align-items-center px-5 py-3">
-        <p class="text-white mb-0 me-4">VIAJES CHILE</p>
-        <div class="ms-auto">
-            <i class="fab fa-github text-white me-2"></i>
-            <i class="fab fa-linkedin text-white me-2"></i>
-            <i class="fab fa-twitter text-white me-2"></i>
-            <i class="fab fa-facebook text-white"></i>
         </div>
-    </footer>
+    </section>
+</div>
 
-    <!-- scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- card -->
+<div class="section-container pt-5" id="destacados">
+    <section class="row row-cols-5  pt-5 bg-black" >
+        <div class="col w-25">
+            <div class="card h-100">
+                <img src="assets/img/card1.jpg" class="card-img-top img-fluid h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col w-25">
+            <div class="card h-100">
+                <img src="assets/img/card2.jpg" class="card-img-top img-fluid h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col w-25">
+            <div class="card h-100">
+                <img src="assets/img/card3.jpg" class="card-img-top img-fluid h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col w-25">
+            <div class="card h-100">
+                <img src="assets/img/card4.jpg" class="card-img-top img-fluid h-100" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- formulario -->
+<div class="section-container" id="contacto">
+    <section class="bg-black" >
+        <h1 class="text-center text-white">CONTACTO</h1>
+        <hr class="border-secondary">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-md-6 w-100">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label text-white">Nombre</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label text-white">Asunto</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- footers -->
+<footer class="bg-info d-flex justify-content-between align-items-center px-5 py-3">
+    <p class="text-white mb-0 me-4">VIAJES CHILE</p>
+    <div class="ms-auto">
+        <i class="fab fa-github text-white me-2"></i>
+        <i class="fab fa-linkedin text-white me-2"></i>
+        <i class="fab fa-twitter text-white me-2"></i>
+        <i class="fab fa-facebook text-white"></i>
+    </div>
+</footer>
+
+<!-- scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"
     crossorigin="anonymous"></script>
 <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
