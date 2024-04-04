@@ -2,13 +2,11 @@ body{
     background-color: black;
   }
   .navbar {
-    z-index: 9999; /* Aumenta este número si es necesario */
+    z-index: 9999; 
     position: fixed;
     width: 100%;
     background: rgba(248, 9, 9, 0); 
 }
-
-  
   .carousel {
     position: relative;
     z-index: 0;
@@ -19,18 +17,12 @@ body{
   }
   .section-container {
     max-width: 1200px;
-    /* Establece un ancho máximo para las secciones */
     margin: 0 auto;
-    /* Centra horizontalmente las secciones */
     padding: 0 15px;
-    /* Agrega un espacio alrededor de las secciones */
 }
 
 section {
     padding: 20px;
-    /* Ajusta el espacio interior de las secciones según sea necesario */
     background-color: #f8f9fa;
-    /* Cambia el color de fondo de las secciones si es necesario */
     margin-bottom: 20px;
-    /* Agrega un espacio entre las secciones */
 }

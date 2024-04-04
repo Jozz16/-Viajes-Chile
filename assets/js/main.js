@@ -6,15 +6,27 @@ $(function () {
     $('#contactoNav').tooltip({ title: "Contacto", placement: "bottom" });
 });
 
+// scroll
 $(document).ready(function() {
     $('a[href^="#"]').on('click', function(event) {
         var target = $(this.getAttribute('href'));
         if (target.length) {
             event.preventDefault();
-            var scrollPosition = target.offset().top - 50; // Ajuste aquí el valor (-50 es solo un ejemplo)
+            var scrollPosition = target.offset().top - 50;
             $('html, body').stop().animate({
                 scrollTop: scrollPosition
             }, 1000);
         }
     });
 });
+
+// alert
+    document.addEventListener("DOMContentLoaded", function() {
+        const form = document.querySelector('form');
+        const submitButton = document.querySelector('button[type="submit"]');
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Mensaje enviado!');
+        });
+    });
+
