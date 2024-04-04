@@ -21,12 +21,9 @@ $(document).ready(function() {
 });
 
 // alert
-    document.addEventListener("DOMContentLoaded", function() {
-        const form = document.querySelector('form');
-        const submitButton = document.querySelector('button[type="submit"]');
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            alert('Mensaje enviado!');
-        });
+$(document).ready(function() {
+    $('form').submit(function(event) {
+        event.preventDefault();
+        alert('Mensaje enviado!');
     });
-
+});

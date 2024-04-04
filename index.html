@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- nav  -->
     <header>
         <!-- Navbar -->
         <div id="inicioNav"></div>
@@ -43,7 +44,8 @@
         </nav>
 
         <!-- Carousel -->
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"
+            data-bs-interval="2000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/img/carousel1.jpg" class="d-block w-100" height="900" alt="...">
@@ -66,10 +68,9 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        
+
 
     </header>
-
     <!-- quienes somos  -->
     <div class="section-container" id="quieneSomos">
         <section class="bg-black">
@@ -79,10 +80,10 @@
                 <div class="row">
                     <div class="col-md-4 h-100">
                         <div class="text-center h-100">
-                            <div class="icon-container bg-info">
+                            <div class="icon-container bg-info d-md-block">
                                 <i class="fas fa-plane text-white "></i>
                             </div>
-                            <p class="text-white pt-3 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            <p class="text-white pt-3 text-start d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit.
                                 Suspendisse
                                 interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius
@@ -95,7 +96,7 @@
                     </div>
                     <div class="col-md-4 h-100">
                         <div class="text-center h-100">
-                            <p class="text-white text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            <p class="text-white text-start d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 Suspendisse
                                 interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius
                                 gravida
@@ -103,17 +104,17 @@
                                 risus
                                 felis, sollicitudin ac massa in, commodo condimentum justo. Ut id ante lacinia, congue
                                 sapien at, ultricies justo. Vestibulum sollicitudin mi et mauris fringilla tempor.</p>
-                            <div class="icon-container bg-info  ">
+                            <div class="icon-container bg-info  d-md-block">
                                 <i class="fas fa-mountain text-white "></i>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 h-100">
                         <div class="text-center h-100">
-                            <div class="icon-container bg-info">
+                            <div class="icon-container bg-info d-md-block">
                                 <i class="fas fa-route text-white"></i>
                             </div>
-                            <p class="text-white pt-3 text-start">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            <p class="text-white pt-3 text-start d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing
                                 elit.
                                 Suspendisse
                                 interdum cursus mi id ornare. Mauris non lacus ante. Duis at mauris in ipsum varius
@@ -128,11 +129,10 @@
             </div>
         </section>
     </div>
-
     <!-- card -->
     <div class="section-container pt-5" id="destacados">
-        <section class="row row-cols-5  pt-5 bg-black">
-            <div class="col w-25">
+        <section class="row pt-5 bg-black">
+            <div class="col-md-6">
                 <div class="card h-100">
                     <img src="assets/img/card1.jpg" class="card-img-top img-fluid h-100" alt="...">
                     <div class="card-body">
@@ -143,7 +143,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col w-25">
+        </section>
+        <section class="row pt-5 bg-black">
+            <div class="col-md-6">
                 <div class="card h-100">
                     <img src="assets/img/card2.jpg" class="card-img-top img-fluid h-100" alt="...">
                     <div class="card-body">
@@ -154,7 +156,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col w-25">
+        </section>
+        <section class="row pt-5 bg-black">
+            <div class="col-md-6">
                 <div class="card h-100">
                     <img src="assets/img/card3.jpg" class="card-img-top img-fluid h-100" alt="...">
                     <div class="card-body">
@@ -165,7 +169,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col w-25">
+        </section>
+        <section class="row pt-5 bg-black">
+            <div class="col-md-6">
                 <div class="card h-100">
                     <img src="assets/img/card4.jpg" class="card-img-top img-fluid h-100" alt="...">
                     <div class="card-body">
@@ -178,7 +184,9 @@
             </div>
         </section>
     </div>
-
+    
+    
+    
     <!-- formulario -->
     <div class="section-container" id="contacto">
         <section class="bg-black">
@@ -208,7 +216,6 @@
             </div>
         </section>
     </div>
-
     <!-- footers -->
     <footer class="bg-info d-flex justify-content-between align-items-center px-5 py-3">
         <p class="text-white mb-0 me-4">VIAJES CHILE</p>
@@ -219,7 +226,6 @@
             <a href="https://facebook.com" target="_blank" class="text-white"><i class="fab fa-facebook"></i></a>
         </div>
     </footer>
-
     <!-- scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
